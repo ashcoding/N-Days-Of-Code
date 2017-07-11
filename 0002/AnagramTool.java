@@ -20,4 +20,4 @@ public class AnagramTool {
 
         return total;
     }
-}s
+}
