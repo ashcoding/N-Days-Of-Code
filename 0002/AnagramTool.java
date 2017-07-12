@@ -1,5 +1,11 @@
 public class AnagramTool {
 
+    public static void main(String[] args) {
+        System.out.println(AnagramTool.minRemovedToBeAnagram("bcadeh", "hea")); // 3
+        System.out.println(AnagramTool.minRemovedToBeAnagram("cddgk", "gcd")); // 2
+        System.out.println(AnagramTool.minRemovedToBeAnagram("bca", "acb")); // 0
+    }
+
     public static int minRemovedToBeAnagram(String a, String b) {
         // http://www.geeksforgeeks.org/remove-minimum-number-characters-two-strings-become-anagram/
         // 26 Characters in the Alphabet

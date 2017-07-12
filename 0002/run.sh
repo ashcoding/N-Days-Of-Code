@@ -1,3 +1,3 @@
 #!/bin/bash
-javac Exercise.java
-java Exercise
+javac AnagramTool.java
+java AnagramTool
